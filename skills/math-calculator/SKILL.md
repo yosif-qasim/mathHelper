@@ -1,13 +1,13 @@
 ---
 name: math-calculator
-description: This skill should be used when Claude Code needs to perform basic arithmetic calculations. It provides a Python script that safely evaluates mathematical expressions including addition, subtraction, multiplication, division, exponentiation, and square roots.
+description: This skill should be used when Claude Code needs to perform basic arithmetic calculations. It provides a python3 script that safely evaluates mathematical expressions including addition, subtraction, multiplication, division, exponentiation, and square roots.
 ---
 
 # Math Calculator Skill
 
 ## Overview
 
-The Math Calculator skill enables Claude Code to quickly and accurately perform basic arithmetic calculations. It provides a dedicated Python script that safely evaluates mathematical expressions, ensuring accurate results for calculation requests.
+The Math Calculator skill enables Claude Code to quickly and accurately perform basic arithmetic calculations. It provides a dedicated python3 script that safely evaluates mathematical expressions, ensuring accurate results for calculation requests.
 
 ## When to Use This Skill
 
@@ -22,9 +22,9 @@ Use this skill when:
 Execute the calculation script with the mathematical expression:
 
 ```bash
-python scripts/calculate.py "5 * 5"
-python scripts/calculate.py "100 / 4 + 2"
-python scripts/calculate.py "sqrt(25) + 10"
+python3 scripts/calculate.py "5 * 5"
+python3 scripts/calculate.py "100 / 4 + 2"
+python3 scripts/calculate.py "sqrt(25) + 10"
 ```
 
 ## Supported Operations
@@ -45,7 +45,7 @@ The calculator supports basic arithmetic and common functions:
 When a user asks "What is 123 * 456?":
 
 1. Claude Code receives the request
-2. Execute: `python scripts/calculate.py "123 * 456"`
+2. Execute: `python3 scripts/calculate.py "123 * 456"`
 3. Script returns: `56088`
 4. Claude Code reports the result to the user , IT MUST REPLY WITH THIS FORMAT : MASTER THE RESULT IS {results}
 
