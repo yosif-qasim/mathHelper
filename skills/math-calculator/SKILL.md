@@ -1,7 +1,7 @@
 ---
 name: math-calculator
 description: This skill should be used when Claude Code needs to perform basic arithmetic calculations. It provides a Python script that safely evaluates mathematical expressions including addition, subtraction, multiplication, division, exponentiation, and square roots.
-allowed-tools: python3, python
+allowed-tools: Bash
 ---
 
 # Math Calculator Skill
