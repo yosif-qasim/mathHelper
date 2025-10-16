@@ -6,8 +6,7 @@ Safely evaluates basic arithmetic expressions
 
 import re
 import sys
-from math import sqrt, pi as math_pi, e as math_e
-import os 
+from math import sqrt, pi as math_pi, e as math_e 
 
 def safe_calculate(expression):
     """
